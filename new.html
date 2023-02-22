@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="new.css" />
+  </head>
+  <body>
+    <div class="container"></div>
+    <div class="aside">
+      <form class="signUp" action="login.php" method="post">
+        <div class="formGroup">
+          <i class="fas fa-user"></i>
+          <input
+            type="text"
+            id="UserName"
+            placeholder="Enter your Username"
+            name="registernumber"
+            title="Enter your registernumber"
+            autocomplete="off"
+            required
+          />
+        </div>
+
+        <div class="formGroup">
+          <i class="fas fa-lock"></i>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter your Password"
+            name="password"
+            title="Enter your password"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <a href="password_reset.php" class="float-end">Forget password?</a>
+        <div class="formGroup">
+          <button type="submit" class="btn2" name="register">Login</button>
+        </div>
+        <button class="bt" onclick="myFunction()">
+          NEW USER-CLICK HERE TO REGISTER
+        </button>
+        <div id="register">
+          <p class="link">ARE YOU ?</p>
+          <p class="link">
+            <i class="fas fa-user"></i> <a href="index3.php">ADMIN</a
+            ><a href="index1.php"> /STUDENT</a
+            ><a href="index2.php"> / FACULTY</a>
+          </p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
